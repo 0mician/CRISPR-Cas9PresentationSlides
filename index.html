@@ -33,6 +33,7 @@
 
   <body>
     <div class="reveal">
+	  <img src="img/kuleuvenlogo.jpg" align="right" width="60px" height="80px" style="padding-right:10px;padding-top:10px;">
       <div class="slides">
         
         <!--Introduction-->
@@ -50,7 +51,7 @@
             <li>How Cas9 finds targets</li>
             <li>PAM requirements</li>
             <li>RNA-DNA Heteroduplex formation mechanism</li>
-            <li>Nuclease activity</li>
+            <li>PAM triggers Cas9 Nuclease activity</li>
             <li>Discussion</li>
           </ul>
         </section>
@@ -65,7 +66,7 @@
               <li class="opaque">How Cas9 finds targets</li>
               <li class="opaque">PAM requirements</li>
               <li class="opaque">RNA-DNA Heteroduplex formation mechanism</li>
-              <li class="opaque">Nuclease activity</li>
+              <li class="opaque">PAM triggers Cas9 Nuclease activity</li>
               <li class="opaque">Discussion</li>
             </ul>
           </section>
@@ -101,7 +102,7 @@
               <li class="opaque">How Cas9 finds targets</li>
               <li class="opaque">PAM requirements</li>
               <li class="opaque">RNA-DNA Heteroduplex formation mechanism</li>
-              <li class="opaque">Nuclease activity</li>
+              <li class="opaque">PAM triggers Cas9 Nuclease activity</li>
               <li class="opaque">Discussion</li>
             </ul>
           </section>
@@ -174,7 +175,7 @@
               <li>How does Cas9-RNA finds targets</li>
               <li class="opaque">PAM requirements</li>
               <li class="opaque">RNA-DNA Heteroduplex formation mechanism</li>
-              <li class="opaque">Nuclease activity</li>
+              <li class="opaque">PAM triggers Cas9 Nuclease activity</li>
               <li class="opaque">Discussion</li>
             </ul>
           </section>
@@ -244,7 +245,7 @@
               <li class="opaque">How Cas9 finds targets</li>
               <li>PAM requirements</li>
               <li class="opaque">RNA-DNA Heteroduplex formation mechanism</li>
-              <li class="opaque">Nuclease activity</li>
+              <li class="opaque">PAM triggers Cas9 Nuclease activity</li>
               <li class="opaque">Discussion</li>
             </ul>
           </section>
@@ -270,28 +271,61 @@
             </ul>
           </section>
 		  <section>
-		    <div style="float:left;width:60%">
+		  <div>
+			     <p>
+                     <span class="opaque">PAM recognition</span> --> <br\>
+					 duplex destabilization--> <br\>
+					 strand separation--><br\>
+					 base pairing 
+				 </p>				
+			</div>
+            <hr\><hr\>			
+			<div style="float:left;">
+			    <ul>
+			         <li>Random Nucleation</li>
+					 <li>Sequential Unwinding</li>
+				</ul>
+			</div>
+		    <div style="float:right;width:58%">
 		      <img src="img/PAM identification.png">
+			</div>			
+		  </section>
+		  <section>
+		    <div style="float:left;width:40%">
+		       <img src="img/CompetitionCleavage-method.png">
 			</div>
-			<div>
+			<div style="text-align:left;">
+			     <h6>Model Prediction</h6>
+			     <small>cleavage assays with DNA competitors </small>
+				 <small> varied lengths and positions of complementarity </small>
+				 <small> predicted patterns of cleavage inhibition</small>
 			</div>
 		  </section>
 		  <section>
-		    <div style="float:left;width:60%">
+		    <div style="text-align:left;">
+			     <h6>Results</h6>
+			     <small>Inhibition of cleavage increased with increasing extent of complementarity at 3' end </small>
+				 <small>Inhibition increased with 12 or more bp complimentary</small>
+				 <small>Competitors with 3' end mismatch adjacent to PAM inert to binding </small>
+			</div>
+		    <div style="float:right;width:35%">
 		       <img src="img/CompetitionCleavage.png">
-			</div>
-			<div>
-			</div>
+			</div>			
 		  </section>
 		  <section>
-		    <div style="float:left;width:60%">
+		    <div style="float:left;text-align:left;">
+			    <h6>Results(Contd.)</h6>
+				<small>Mismatch within first 2 nucleotides, Cas9-RNA looses interrogation ability</small>
+				<small>Sequence homology adjacent to PAM is necessary for unwinding</small>
+				<small>DNA competitor containing mismatches within itself and with crRNA also resulted in perfect binding</small>
+			</div>
+			<div style="float:left;width:50%">
 		       <img src="img/Cas9-BubbleDNA.png">
-			</div>
-			<div>
-			</div>
+			</div>			
 		  </section>
 		  <section>
-		    <div style="float:left;width:60%">
+		    <div style="float:left;width:80%;align:center;">
+			    <h6>Heteroduplex formation</h6>
 		       <img src="img/Heteroduplex formation.png">
 			</div>
 			<div>
@@ -309,15 +343,32 @@
               <li class="opaque">How Cas9 finds targets</li>
               <li class="opaque">PAM requirements</li>
               <li class="opaque">RNA-DNA Heteroduplex formation mechanism</li>
-              <li>Nuclease activity</li>
+              <li>PAM triggers Cas9 Nuclease activity</li>
               <li class="opaque">Discussion</li>
             </ul>
           </section>
-		   <section>
-		    <div style="float:left;width:80%">
+		  <section>
+		  	<div style="text-align:left;">
+			   <small>ssDNA cleaved twice slower then dsDNA, despite both having similar affinities</small>
+			   <small>Cas9-RNA recognizes 5'-NGG-3' PAM on non-target strand</small>
+			   <small></small>
+			</div>
+		    <div style="align:center;width:70%">
 		       <img src="img/TargetSRC.png">
 			</div>
+
+		  </section>
+		   <section>
+		    <div style="float:left;text-align:left;">
+			   <small>ssDNA target strand is activated for cleavage in presence of an extended dsDNA across PAM </small>
+			   <small>Presence of 5'-NGG-3' PAM is critical</small>
+			   <small></small>
+			</div>
+		    <div style="float:right;width:55%">
+		       <img src="img/NucleaseActivity.png">
+			</div>
 			<div>
+			  <p style="align:center"><small><i>"PAM acts as a allosteric regulator of Cas9-RNA nuclease activity"</i></small></p>
 			</div>
 		  </section>
         </section>
@@ -332,22 +383,37 @@
               <li class="opaque">How Cas9 finds targets</li>
               <li class="opaque">PAM requirements</li>
               <li class="opaque">RNA-DNA Heteroduplex formation mechanism</li>
-              <li class="opaque">Nuclease activity</li>
+              <li class="opaque">PAM triggers Cas9 Nuclease activity</li>
               <li>Discussion</li>
             </ul>
           </section>
+		  <section>
+		    <ul style="align:left;">
+			  <li>Cas9-RNA target search begins with random collisions with DNA</li>
+			  <li>PAM recognition coincides with destabilization</li>
+			  <li>Cas9-RNA does not dissociate from DNA</li>
+			  <li> Minimization of off-target effects</li>
+			</ul>
+			<div style="float:right;width:55%">
+		       <img src="img/Discussion.jpg">
+			</div>			
+		  </section>
         </section>
 
         <!--End-->
-        <section>
-          <h3>Slides and references</h3>
-          <p>This slide presentation is available on github: https://github.com/Milt0n/CRISPR-Cas9PresentationSlides</p>
-          <p>Full references and images are also available on the github page</p>
-        </section>
-        <section>
+		<section>
           <h3>Thank you for your attention!</h3>
           <h3>Questions?</h3>
         </section>
+		
+        <section>
+          <h3>Slides and references</h3>
+          <p>This slide presentation is available on github: 
+		      <a href="https://github.com/Milt0n/CRISPR-Cas9PresentationSlides" target="_blank">https://github.com/Milt0n/CRISPR-Cas9PresentationSlides<a>
+		  </p>
+          <p>Full references and images are also available on github</p>
+        </section>
+        
       </div>
     </div>
 
