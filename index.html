@@ -63,7 +63,6 @@
               <li>Prokaryotic origin of Cas9</li>
               <li class="opaque">Single-molecule visualization</li>
               <li class="opaque">How Cas9 finds targets</li>
-              <li class="opaque">PAM requirements</li>
               <li class="opaque">RNA-DNA Heteroduplex formation mechanism</li>
               <li class="opaque">PAM triggers Cas9 Nuclease activity</li>
               <li class="opaque">Discussion</li>
@@ -111,7 +110,7 @@
           </section>
          
           <section>
-            <h3>DNA Curtains assay</h3>
+            <h3>DNA Curtain assay</h3>
             <img src="img/SingleTetheredDNA.png">
             <p> DNA from λ phages, about 48k base-pairs</p>
           </section>
@@ -148,12 +147,15 @@
               </tr>
             </table>
           </section>
-                 
-           <section>
+
+          <section>
+          </section>
+
+          <section>
             <h3>Single turnover enzyme</h3>
             <p>dCas9/RNA or WT Cas9/RNA = No cleavage?</p>
             <img src="img/CleavageDNAMM.png">
-            <p>Michaelis-Menten, thy shall be ignored</p>
+            <p>No Michaelis-Menten kinetics</p>
           </section>
 
           <section>
@@ -273,13 +275,13 @@
           </section>
           <section>
               <div style="float:left;width:40%">
-                  <img src="img/CompetitionCleavage-method.png">
+                  <!-- <img src="img/CompetitionCleavage-method.png"> -->
               </div>
               <div style="text-align:left;">
                   <h6>Model Prediction</h6>
-                  <small>cleavage assays with DNA competitors </small>
-                  <small> varied lengths and positions of complementarity </small>
-                  <small> predicted patterns of cleavage inhibition</small>
+                  <small>- cleavage assays with DNA competitors </small>
+                  <small>- varied lengths and positions of complementarity </small>
+                  <small>- predict the model based on patterns of cleavage inhibition</small>
               </div>
           </section>
           <section>
@@ -289,8 +291,8 @@
                   <small>Inhibition increased with 12 or more bp complimentary</small>
                   <small>Competitors with 3' end mismatch adjacent to PAM inert to binding </small>
               </div>
-              <div style="float:right;width:35%">
-                  <img src="img/CompetitionCleavage.png">
+              <div style="float:right;width:55%">
+                  <img src="img/Cas9-BubbleDNA.PNG">
               </div>			
           </section>
           <section>
@@ -300,18 +302,10 @@
                   <small>Sequence homology adjacent to PAM is necessary for unwinding</small>
                   <small>DNA competitor containing mismatches within itself and with crRNA also resulted in perfect binding</small>
               </div>
-              <div style="float:left;width:50%">
-                  <img src="img/Cas9-BubbleDNA.PNG">
-              </div>			
-          </section>
-          <section>
-              <div style="float:left;width:80%;align:center;">
-                  <h6>Heteroduplex formation</h6>
+              <div style="float:right;width:45%">
                   <img src="img/Heteroduplex formation.png">
-              </div>
-              <div>
-              </div>
-          </section>
+              </div>			
+          </section>         
         </section>
 
         <!--Nuclease activity-->
@@ -329,22 +323,22 @@
             </section>
             <section>
                 <div style="text-align:left;">
-                    <small>ssDNA cleaved twice slower then dsDNA, despite both having similar affinities</small>
-                    <small>Cas9-RNA recognizes 5'-NGG-3' PAM on non-target strand</small>
+                    <small>A ssDNA cleaved twice slower than dsDNA, despite both having similar affinity to bind.</small>
+                    <small>The Cas9-RNA recognizes 5'-NGG-3' PAM on non-target strand</small>
                     <small></small>
                 </div>
-                <div style="align:center;width:70%">
-                    <img src="img/TargetSRC.png">
+                <div style="float:right;width:80%">
+                    <img src="img/Discussion.jpg">
                 </div>
 
             </section>
             <section>
                 <div style="float:left;text-align:left;">
-                    <small>ssDNA target strand is activated for cleavage in presence of an extended dsDNA across PAM </small>
-                    <small>Presence of 5'-NGG-3' PAM is critical</small>
+                    <small>ssDNA target strand is activated for cleavage in presence of an extended dsDNA across PAM. </small>
+                    <small>The presence of 5'-NGG-3' PAM is critical</small>
                     <small></small>
                 </div>
-                <div style="float:right;width:55%">
+                <div style="float:right;width:65%">
                     <img src="img/NucleaseActivity.png">
                 </div>
                 <div>
@@ -371,10 +365,10 @@
                     <li>Cas9-RNA target search begins with random collisions with DNA</li>
                     <li>PAM recognition coincides with destabilization</li>
                     <li>Cas9-RNA does not dissociate from DNA</li>
-                    <li> Minimization of off-target effects</li>
+                    <li>Minimal off-target effects due to PAM recognition</li>
                 </ul>
                 <div style="float:right;width:55%">
-                    <img src="img/Discussion.jpg">
+                    <img src="img/TargetSRC.png">
                 </div>			
             </section>
         </section>
@@ -384,7 +378,7 @@
             <h3>Thank you for your attention!</h3>
             <h3>Questions?</h3>
         </section>
-	
+
         <section>
             <h3>Slides and references</h3>
             <p>This slide presentation is available on github: 
@@ -392,7 +386,7 @@
 	    </p>
             <p>Full references and images are also available on github</p>
         </section>
-        
+         
       </div>
     </div>
 
